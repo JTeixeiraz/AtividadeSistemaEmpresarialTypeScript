@@ -1,8 +1,9 @@
+import { iCurtida } from "./interface/iCurtida";
 import { iMensageria } from "./interface/iMensageria";
 import { mensagemPrivada } from "./mensagemPrivada";
 import { MensagemPublica } from "./mensagemPublica";
 
-export class perfilFuncionario implements iMensageria{
+export class perfilFuncionario implements iMensageria, iCurtida{
     id:number;
     nome:string;
     cargo:string;
@@ -10,7 +11,8 @@ export class perfilFuncionario implements iMensageria{
     anosEmpresa:string;
     mensagensPrivadas: string[];
     mensagensPublicas: string[];
-    constructor(id:number, nome:string, cargo:string, descricao: string, anosEmpresa:string, mensagensPrivadas:string[], mensagemPublica:string[]) {
+    curtidas: perfilFuncionario[];
+    constructor(id:number, nome:string, cargo:string, descricao: string, anosEmpresa:string, mensagensPrivadas:string[], mensagemPublica:string[], curtidas: perfilFuncionario[]) {
         this.id = id
         this.nome = nome
         this.cargo = cargo
@@ -18,12 +20,16 @@ export class perfilFuncionario implements iMensageria{
         this.anosEmpresa = anosEmpresa
         this.mensagensPrivadas = mensagensPrivadas
         this.mensagensPublicas = mensagemPublica
-        
+        this.curtidas = curtidas
     }
     enviarMensagemPrivada(perfilFuncionario: perfilFuncionario, mensagem: mensagemPrivada): void {
-        
+
     }
     enviarMensagemPublica(perfilFuncionario: perfilFuncionario, mensagem: MensagemPublica): void {
-        
+
+    }
+
+    serCurtido(perfilFuncionario: perfilFuncionario): void {
+        this.curtidas.push(perfilFuncionario)
     }
 }
