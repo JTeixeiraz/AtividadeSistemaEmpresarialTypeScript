@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Souza",
+    "cargo": "Desenvolvedora Back-End",
+    "descricao": "Especialista em APIs e microserviços.",
+    "quantAnosEmpresa": 3,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 2,
+    "nome": "João Lima",
+    "cargo": "Analista de Qualidade",
+    "descricao": "Garante a qualidade e estabilidade dos sistemas.",
+    "quantAnosEmpresa": 5,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 3,
+    "nome": "Maria Fernandes",
+    "cargo": "UX Designer",
+    "descricao": "Apaixonada por criar experiências intuitivas.",
+    "quantAnosEmpresa": 2,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 4,
+    "nome": "Carlos Alberto",
+    "cargo": "DevOps",
+    "descricao": "Automatiza processos e mantém a infraestrutura.",
+    "quantAnosEmpresa": 4,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 5,
+    "nome": "Patrícia Gomes",
+    "cargo": "Product Owner",
+    "descricao": "Define prioridades e mantém a visão do produto.",
+    "quantAnosEmpresa": 6,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 6,
+    "nome": "Rafael Costa",
+    "cargo": "Front-End Developer",
+    "descricao": "Cria interfaces responsivas e interativas.",
+    "quantAnosEmpresa": 1,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 7,
+    "nome": "Fernanda Lima",
+    "cargo": "Back-End Developer",
+    "descricao": "Foca na lógica do servidor e integração de APIs.",
+    "quantAnosEmpresa": 2,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 8,
+    "nome": "Gustavo Oliveira",
+    "cargo": "QA Analyst",
+    "descricao": "Especialista em testes automatizados.",
+    "quantAnosEmpresa": 3,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 9,
+    "nome": "Juliana Souza",
+    "cargo": "UX Researcher",
+    "descricao": "Pesquisa e analisa comportamento de usuários.",
+    "quantAnosEmpresa": 4,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 10,
+    "nome": "Lucas Pereira",
+    "cargo": "DevOps",
+    "descricao": "Gerencia infraestrutura e pipelines de CI/CD.",
+    "quantAnosEmpresa": 5,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 11,
+    "nome": "Mariana Costa",
+    "cargo": "Product Owner",
+    "descricao": "Alinha prioridades do produto com stakeholders.",
+    "quantAnosEmpresa": 3,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 12,
+    "nome": "Pedro Henrique",
+    "cargo": "Front-End Developer",
+    "descricao": "Foca em interfaces modernas e performáticas.",
+    "quantAnosEmpresa": 2,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 13,
+    "nome": "Camila Rodrigues",
+    "cargo": "Back-End Developer",
+    "descricao": "Implementa serviços e integrações complexas.",
+    "quantAnosEmpresa": 4,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 14,
+    "nome": "Thiago Santos",
+    "cargo": "QA Analyst",
+    "descricao": "Analisa bugs e mantém a qualidade do software.",
+    "quantAnosEmpresa": 1,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 15,
+    "nome": "Bianca Almeida",
+    "cargo": "UX Designer",
+    "descricao": "Projeta experiências intuitivas e responsivas.",
+    "quantAnosEmpresa": 5,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 16,
+    "nome": "Felipe Martins",
+    "cargo": "DevOps",
+    "descricao": "Configura servidores e ambientes de produção.",
+    "quantAnosEmpresa": 2,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 17,
+    "nome": "Aline Ferreira",
+    "cargo": "Product Owner",
+    "descricao": "Define roadmap e prioridades do produto.",
+    "quantAnosEmpresa": 3,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 18,
+    "nome": "Rogério Lima",
+    "cargo": "Front-End Developer",
+    "descricao": "Desenvolve interfaces interativas e rápidas.",
+    "quantAnosEmpresa": 4,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 19,
+    "nome": "Natália Souza",
+    "cargo": "UX Researcher",
+    "descricao": "Estuda comportamento do usuário e tendências.",
+    "quantAnosEmpresa": 1,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  },
+  {
+    "id": 20,
+    "nome": "Bruno Costa",
+    "cargo": "Back-End Developer",
+    "descricao": "Responsável por APIs escaláveis e seguras.",
+    "quantAnosEmpresa": 6,
+    "curtidas": [],
+    "mensagensPublicas": [],
+    "mensagensPrivadas": []
+  }
+]

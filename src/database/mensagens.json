@@ -1,0 +1,67 @@
+[
+  {
+    "idFROM": 1,
+    "idTO": 2,
+    "mensagem": "Parabéns pelo ótimo trabalho no último sprint!",
+    "tipo": 1,
+    "curtidas": []
+  },
+  {
+    "idFROM": 3,
+    "idTO": 1,
+    "mensagem": "Obrigado pela ajuda na integração da API!",
+    "tipo": 1,
+    "curtidas": []
+  },
+  {
+    "idFROM": 5,
+    "idTO": 4,
+    "mensagem": "Precisamos alinhar os pipelines de produção amanhã.",
+    "tipo": 0
+  },
+  {
+    "idFROM": 6,
+    "idTO": 3,
+    "mensagem": "Gostaria de revisar o design do novo módulo.",
+    "tipo": 0
+  },
+  {
+    "idFROM": 7,
+    "idTO": 8,
+    "mensagem": "Excelente relatório de QA, parabéns!",
+    "tipo": 1,
+    "curtidas": []
+  },
+  {
+    "idFROM": 9,
+    "idTO": 10,
+    "mensagem": "Podemos conversar sobre as melhorias do dashboard?",
+    "tipo": 0
+  },
+  {
+    "idFROM": 11,
+    "idTO": 12,
+    "mensagem": "Boa apresentação para o cliente, muito profissional!",
+    "tipo": 1,
+    "curtidas": []
+  },
+  {
+    "idFROM": 15,
+    "idTO": 16,
+    "mensagem": "Você poderia revisar a infraestrutura antes do deploy?",
+    "tipo": 0
+  },
+  {
+    "idFROM": 17,
+    "idTO": 18,
+    "mensagem": "Adorei seu trabalho no layout da nova página!",
+    "tipo": 1,
+    "curtidas": []
+  },
+  {
+    "idFROM": 20,
+    "idTO": 1,
+    "mensagem": "Precisamos discutir o planejamento do próximo release.",
+    "tipo": 0
+  }
+]
