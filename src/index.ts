@@ -1,12 +1,7 @@
-const readline = require("readline")
-const rl = readline.createInterface({
-    input:process.stdin,
-    output:process.stdout
-});
-
 //---------------------CODIGO EXEMPLO E=======================
 import { User } from "./models/User";
 import { UserService } from './services/UserService'
+import readline from "readline";
 
 const usuariosServ: UserService = new UserService();
 
@@ -16,3 +11,14 @@ const usuarios:User[] = usuariosServ.servicoExemploListarTodos();
 console.log("\n=== Usuários Atuais ===");
 usuarios.forEach(user => console.log(user)); 
 //-------------------------------------------------------------
+
+main();
+
+function main():void{
+    const readline = require("readline")
+    const rl = readline.createInterface({
+        input:process.stdin,
+        output:process.stdout
+    });
+
+}

@@ -3,8 +3,8 @@ import {FuncionariosModel} from "../models/FuncionariosModel";
 import fs from "fs";
 import {MensagensModel} from "../models/MensagensModel";
 
-class MensagensRepository {
-    private readonly filePath = path.resolve(__dirname, "../database/funcionarios.json");
+export class MensagensRepository {
+    private readonly filePath = path.resolve(__dirname, "../database/mensagens.json");
 
     getAll(): MensagensModel[] {
         const data = fs.readFileSync(this.filePath, "utf-8");
