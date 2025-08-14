@@ -1,3 +1,9 @@
+const readline = require("readline")
+const rl = readline.createInterface({
+    input:process.stdin,
+    output:process.stdout
+});
+
 //---------------------CODIGO EXEMPLO E=======================
 import { User } from "./models/User";
 import { UserService } from './services/UserService'

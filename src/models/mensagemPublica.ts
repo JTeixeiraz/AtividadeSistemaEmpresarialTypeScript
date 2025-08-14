@@ -5,12 +5,6 @@ import * as readline from 'readline';
 import {FuncionariosModel} from "./FuncionariosModel";
 
 
-/**
- * const rl = readline.createInterface({
-            input:process.stdin,
-            output:process.stdout
-        })
- */
 export class MensagemPublica implements IMensagem, iCurtida{
     idTO: number;
     idFROM: number;

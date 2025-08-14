@@ -1,3 +1,6 @@
+import {mensagemPrivada} from "./mensagemPrivada";
+import {MensagemPublica} from "./mensagemPublica";
+
 export class FuncionariosModel {
     constructor(
         public id:number,
@@ -6,7 +9,7 @@ export class FuncionariosModel {
         public descricao:string,
         public quantAnosEmpresa:number,
         public curtidas:FuncionariosModel[],
-        public mensagensPublicas:string[],
-        public mensagensPrivadas:string[],
+        public mensagensPublicas:MensagemPublica[],
+        public mensagensPrivadas:mensagemPrivada[],
     ) {}
 }

@@ -3,8 +3,8 @@ import { MensagemPublica } from "../mensagemPublica"
 import { perfilFuncionario } from "../perfilFuncionario"
 
 export interface iMensageria{
-    mensagensPublicas:string[]
-    mensagensPrivadas:string[]
+    mensagensPublicas:MensagemPublica[]
+    mensagensPrivadas:mensagemPrivada[]
 
     enviarMensagemPublica(perfilFuncionario:perfilFuncionario, mensagem:MensagemPublica):void
     enviarMensagemPrivada(perfilFuncionario:perfilFuncionario, mensagem:mensagemPrivada):void
