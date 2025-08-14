@@ -2,6 +2,7 @@ import { iCurtida } from "./interface/iCurtida";
 import { iMensageria } from "./interface/iMensageria";
 import { mensagemPrivada } from "./mensagemPrivada";
 import { MensagemPublica } from "./mensagemPublica";
+import {FuncionariosModel} from "./FuncionariosModel";
 
 export class perfilFuncionario implements iMensageria, iCurtida{
     id:number;
@@ -11,8 +12,8 @@ export class perfilFuncionario implements iMensageria, iCurtida{
     anosEmpresa:string;
     mensagensPrivadas: string[];
     mensagensPublicas: string[];
-    curtidas: perfilFuncionario[];
-    constructor(id:number, nome:string, cargo:string, descricao: string, anosEmpresa:string, mensagensPrivadas:string[], mensagemPublica:string[], curtidas: perfilFuncionario[]) {
+    curtidas: FuncionariosModel[];
+    constructor(id:number, nome:string, cargo:string, descricao: string, anosEmpresa:string, mensagensPrivadas:string[], mensagemPublica:string[], curtidas: FuncionariosModel[]) {
         this.id = id
         this.nome = nome
         this.cargo = cargo
@@ -29,7 +30,7 @@ export class perfilFuncionario implements iMensageria, iCurtida{
 
     }
 
-    serCurtido(perfilFuncionario: perfilFuncionario): void {
+    serCurtido(perfilFuncionario: FuncionariosModel): void {
         this.curtidas.push(perfilFuncionario)
     }
 }

@@ -1,6 +1,7 @@
 import { perfilFuncionario } from "../perfilFuncionario";
+import {FuncionariosModel} from "../FuncionariosModel";
 
 export interface iCurtida{
-    curtidas:perfilFuncionario[]
-    serCurtido(perfilFuncionario: perfilFuncionario):void
+    curtidas:FuncionariosModel[]
+    serCurtido(perfilFuncionario: FuncionariosModel):void
 }

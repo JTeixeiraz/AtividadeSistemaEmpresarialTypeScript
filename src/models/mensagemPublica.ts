@@ -2,6 +2,7 @@ import { iCurtida } from "./interface/iCurtida";
 import { IMensagem } from "./interface/iMensagem";
 import { perfilFuncionario } from "./perfilFuncionario";
 import * as readline from 'readline';
+import {FuncionariosModel} from "./FuncionariosModel";
 
 
 /**
@@ -14,9 +15,9 @@ export class MensagemPublica implements IMensagem, iCurtida{
     idTO: number;
     idFROM: number;
     message: string;
-    curtidas: perfilFuncionario[];
+    curtidas: FuncionariosModel[];
 
-    constructor(idTO:number, idFROM:number, message:string, curtidas:perfilFuncionario[]){
+    constructor(idTO:number, idFROM:number, message:string, curtidas:FuncionariosModel[]){
         this.idTO = idTO,
         this.idFROM = idFROM,
         this.message = message
@@ -27,7 +28,7 @@ export class MensagemPublica implements IMensagem, iCurtida{
         this.message = `DE${this.idTO}: ${this.message} \n DISSE:${this.idFROM}`
         return this.message;
     }
-    serCurtido(perfilFuncionario: perfilFuncionario): void {
+    serCurtido(perfilFuncionario: FuncionariosModel): void {
         this.curtidas.push(perfilFuncionario)
     }
 }
